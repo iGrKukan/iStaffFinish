@@ -16,6 +16,10 @@
 		2B5C199423E9ADE1003C5E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C199223E9ADE1003C5E4B /* LaunchScreen.storyboard */; };
 		2B5C199F23E9ADE1003C5E4B /* iStaffFinishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C199E23E9ADE1003C5E4B /* iStaffFinishTests.swift */; };
 		2B5C19AA23E9ADE1003C5E4B /* iStaffFinishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C19A923E9ADE1003C5E4B /* iStaffFinishUITests.swift */; };
+		2BF14CCD23EC731300C3F1E5 /* InsertContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF14CCC23EC731300C3F1E5 /* InsertContactViewController.swift */; };
+		2BF14CCF23EC777F00C3F1E5 /* Ядевич Станислав Иванович.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2BF14CCE23EC777F00C3F1E5 /* Ядевич Станислав Иванович.jpeg */; };
+		2BF14CD123F093C600C3F1E5 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF14CD023F093C600C3F1E5 /* FirstTableViewController.swift */; };
+		2BF14CD323F1ADFE00C3F1E5 /* Ивченко Виталий Васильевич.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2BF14CD223F1ADFE00C3F1E5 /* Ивченко Виталий Васильевич.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		2B5C19A523E9ADE1003C5E4B /* iStaffFinishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStaffFinishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5C19A923E9ADE1003C5E4B /* iStaffFinishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStaffFinishUITests.swift; sourceTree = "<group>"; };
 		2B5C19AB23E9ADE1003C5E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF14CCC23EC731300C3F1E5 /* InsertContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertContactViewController.swift; sourceTree = "<group>"; };
+		2BF14CCE23EC777F00C3F1E5 /* Ядевич Станислав Иванович.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ядевич Станислав Иванович.jpeg"; sourceTree = "<group>"; };
+		2BF14CD023F093C600C3F1E5 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		2BF14CD223F1ADFE00C3F1E5 /* Ивченко Виталий Васильевич.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ивченко Виталий Васильевич.jpeg"; sourceTree = SOURCE_ROOT; };
+		2BF14CD423F1AE0F00C3F1E5 /* Шкредова Ольга Юрьевна.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Шкредова Ольга Юрьевна.HEIC"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +110,16 @@
 		2B5C198323E9ADDF003C5E4B /* iStaffFinish */ = {
 			isa = PBXGroup;
 			children = (
+				2B5C198A23E9ADDF003C5E4B /* Main.storyboard */,
+				2BF14CD023F093C600C3F1E5 /* FirstTableViewController.swift */,
 				2B5C198423E9ADDF003C5E4B /* AppDelegate.swift */,
 				2B5C198623E9ADDF003C5E4B /* SceneDelegate.swift */,
 				2B5C198823E9ADDF003C5E4B /* ViewController.swift */,
-				2B5C198A23E9ADDF003C5E4B /* Main.storyboard */,
+				2BF14CCC23EC731300C3F1E5 /* InsertContactViewController.swift */,
 				2B5C199023E9ADE1003C5E4B /* Assets.xcassets */,
+				2BF14CCE23EC777F00C3F1E5 /* Ядевич Станислав Иванович.jpeg */,
+				2BF14CD423F1AE0F00C3F1E5 /* Шкредова Ольга Юрьевна.HEIC */,
+				2BF14CD223F1ADFE00C3F1E5 /* Ивченко Виталий Васильевич.jpeg */,
 				2B5C199223E9ADE1003C5E4B /* LaunchScreen.storyboard */,
 				2B5C199523E9ADE1003C5E4B /* Info.plist */,
 				2B5C198D23E9ADDF003C5E4B /* iStaffFinish.xcdatamodeld */,
@@ -236,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B5C199423E9ADE1003C5E4B /* LaunchScreen.storyboard in Resources */,
+				2BF14CD323F1ADFE00C3F1E5 /* Ивченко Виталий Васильевич.jpeg in Resources */,
 				2B5C199123E9ADE1003C5E4B /* Assets.xcassets in Resources */,
 				2B5C198C23E9ADDF003C5E4B /* Main.storyboard in Resources */,
+				2BF14CCF23EC777F00C3F1E5 /* Ядевич Станислав Иванович.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +280,8 @@
 			files = (
 				2B5C198923E9ADDF003C5E4B /* ViewController.swift in Sources */,
 				2B5C198523E9ADDF003C5E4B /* AppDelegate.swift in Sources */,
+				2BF14CD123F093C600C3F1E5 /* FirstTableViewController.swift in Sources */,
+				2BF14CCD23EC731300C3F1E5 /* InsertContactViewController.swift in Sources */,
 				2B5C198723E9ADDF003C5E4B /* SceneDelegate.swift in Sources */,
 				2B5C198F23E9ADDF003C5E4B /* iStaffFinish.xcdatamodeld in Sources */,
 			);
